@@ -6,5 +6,6 @@ def flash_class(key)
 end
 
 def user_facing_flashes
-  flash.to_hash.slice "alert", "notice","warning" 
+  flash.to_hash.slice "alert", "notice","warning"
+end
 end
